@@ -1,1 +1,1 @@
-[Link to PDF](/On_Board_Electrical_Vehical_Charging_IEEE_Report.pdf)
+[Link to PDF](On_Board_Electrical_Vehical_Charging_IEEE_Report.pdf)
