@@ -60,7 +60,7 @@ In summary, the transition to renewable energy and electrified transportation is
 \subsection{Charging Schemes}
 \hspace{0.5cm}Various charging schemes for batteries are present in the 
 literature and practice. Details of some main charging 
-schemes are presented in this section. 
+schemes are presented in this section \cite{Kodali2020}. 
 \subsubsection{Constant Voltage Charging Scheme (CV) }
 \begin{itemize}
     \item \textbf{Description}:
@@ -164,7 +164,7 @@ These technologies play crucial roles in advancing battery management, charging 
 
 \subsection{SOC Estimation :}
 \hspace{0.5cm}Comparing SoC estimation methods like the Extended Kalman Filter (EKF), Coulomb Counting, and Voltage-Based Methods reveals trade-offs in accuracy, complexity, and computational demands.
-The EKF, adept with nonlinear battery models, offers precise estimations with uncertainty metrics. However, it demands careful parameter tuning and has higher computational needs.
+The EKF, adept with nonlinear battery models, offers precise estimations with uncertainty metrics. However, it demands careful parameter tuning and has higher computational needs \cite{Ucuncu2019} \cite{Jiang2013}.
 Coulomb Counting, simple and computationally light, integrates current over time for SoC estimation. Yet, it's prone to cumulative errors and struggles with nonlinear battery behavior.
 Voltage-Based Methods, though easy to implement and fast, can suffer from accuracy degradation due to battery aging and temperature changes. They're often tailored to specific chemistries, limiting their broad applicability.
 The choice hinges on application requirements, with EKF offering accuracy at the cost of complexity, Coulomb Counting favoring simplicity over precision, and Voltage-Based Methods offering quick estimates with some accuracy compromises.
@@ -186,7 +186,13 @@ Battery design typically involves modeling the battery using electrical circuit 
 
 
 \section{Circuit Diagram :}
-
+\hspace{0.5cm} The circuit diagram for the Converter topology for the charger is given in fig \ref{Circuit Diagram}.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/charger_CD.png}
+    \caption{Circuit Diagram for Converters}
+    \label{Circuit Diagram}
+\end{figure}
 \section{Simulation :}
 \hspace{0.5cm}The Simulation Circuit for the CCCV mode of battery in this case LG 18650HG2 (3.0Ah) Battery is shown in fig. \ref{Main_Simulink_Circuit}.
 \subsection{Simulink :}
@@ -305,14 +311,14 @@ This function facilitates accurate estimation of battery SOC and terminal voltag
 \hspace{0.5cm}The fig. \ref{battery_parameters} shows the current, voltage and state of charge of battery in simulink with respect to the battery.\newline
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.5\textwidth]{images/battery_params.jpeg}
+    \includegraphics[width=0.474\textwidth]{images/battery_params.jpeg}
     \caption{Battery Parameters}
     \label{battery_parameters}
 \end{figure}
 \hspace{0.5cm} It can be observed that the charging mode is changing from constant current and constant voltage at around time t = 2.3065s. The measurement reading with respect to measurement sensors is given in fig. \ref{measurement_block}, here too it can be observed that there is a change in charging mode.
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.45\textwidth]{images/measurement_block.jpeg}
+    \includegraphics[width=0.475\textwidth]{images/measurement_block.jpeg}
     \caption{Measurements}
     \label{measurement_block}
 \end{figure}
@@ -330,7 +336,8 @@ This function facilitates accurate estimation of battery SOC and terminal voltag
     \caption{Voltage Estimation Curve}
     \label{voltage_estimation_curve}
 \end{figure}
-\newline The error in estimated and measured voltage is almost negligible as seen in fig. \ref{voltage_estimation_curve}, the estimated and measurement voltage are almost overlapping.
+\newline 
+\hspace{0.5cm}The error in estimated and measured voltage is almost negligible as seen in fig. \ref{voltage_estimation_curve}, the estimated and measurement voltage are almost overlapping.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{images/soc_error.png}
@@ -338,7 +345,7 @@ This function facilitates accurate estimation of battery SOC and terminal voltag
     \label{soc_error}
 \end{figure}
 \newline
-Consider fig. \ref{soc_error}, showing the error in SOC. This curve shows the variation of accuracy in SOC which can be obtained in any cell with its particular battery data.
+\hspace{0.5cm}Consider fig. \ref{soc_error}, showing the error in SOC. This curve shows the variation of accuracy in SOC which can be obtained in any cell with its particular battery data.
 
 \section{Result :}
 \section{Conclusion and Future Scope :}
@@ -356,6 +363,49 @@ In future endeavors, our focus lies in advancing the current charging system. Ke
 \bibitem{panasonic_data} Panasonic 18650PF Li-ion Battery Data. Available at: \url{https://data.mendeley.com/datasets/wykht8y7tg/1}
 
 \bibitem{samsung_data} Samsung INR21700 30T 3Ah Li-ion Battery Data. Available at: \url{https://data.mendeley.com/datasets/9xyvy2njj3/1}
+
+\bibitem{Ucuncu2019}
+Murat Üçüncü and Arda Altindag,
+``SOC Estimation for Lithium-Ion Battery Cell Using Extended Kalman Filter,''
+\emph{IEEE}, 
+\url{https://ieeexplore.ieee.org/document/8990558}.
+
+\bibitem{Jiang2013}
+Chenguang Jiang, Allan Taylor, Chen Duan, and Kevin Bai,
+``Extended Kalman Filter based battery state of charge (SOC) estimation for electric vehicles,''
+\emph{IEEE}, 
+\url{https://ieeexplore.ieee.org/document/6573477}.
+
+\bibitem{Kodali2020}
+Samuel Prajwal Kodali and Dr. Soumitra Das,
+``Implementation of Five Level Charging Scheme in Lithium ion Batteries for enabling Fast Charging in Plug-in Hybrid Electric Vehicles,''
+National Institute of Technology, Ponda, Goa, India, 
+Email: \texttt{prajwalkodali.nitg@gmail.com}, \texttt{sdas@nitgoa.ac.in}.
+
+
+\bibitem{Zhang2022}
+Xiaozhou Zhang and Ruiping Zhang,
+``Estimation of Lithium Battery SOC Based on Fuzzy Unscented Kalman Filter Algorithm,''
+Tianshui Electrical Drive Research Institute Group Co. Ltd, Tianshui, China; School of Automation \& Electrical Engineering, Lanzhou Jiaotong University, Lanzhou, China.
+
+\bibitem{Kumar2022}
+R. Ranjith Kumar, C. Bharatiraja, K. Udhayakumar, S. Devakirubakaran, K. Sathiya Sekar, and Lucian Mihet-Popa,
+``Advances in Batteries, Battery Modeling, Battery Management System, Battery Thermal Management, SOC, SOH, and Charge/Discharge Characteristics in EV Applications,``
+
+\bibitem{NITIAayog2022}
+NITI Aayog, Ministry of Power (MoP), Department of Science and Technology (DST), Bureau of Energy Efficiency (BEE), WRI India,
+``Handbook of Electric Vehicle Charging Infrastructure Implementation Version-1,''
+Amitabh Kant, Randheer Singh, Sanjeev Kumar Kassi, Ashutosh Sharma, Sajid Mubashir, Abhishek Sharma, Chaitanya Kanuri, Shyamasis Das, Pawan Mulukutla.
+
+\bibitem{Dubey2001}
+Gopal K. Dubey,
+``Fundamentals of Electrical Drives, Second Edition,''
+Professor, Department of Electrical Engineering, Indian Institute of Technology, Kanpur, Kanpur-208016, India.
+
+\bibitem{Veltman2007}
+André Veltman, Duco W.J. Pulle, and Rik W. De Doncker,
+``Fundamentals of Electrical Drives,''
+Technische Universiteit Eindhoven, Dept. of Electrical Engineering, P.O. Box 513, 5600 MB Eindhoven, The Netherlands.
 
 \end{thebibliography}
 \vspace{12pt}

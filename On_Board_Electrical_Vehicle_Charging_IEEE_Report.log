@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.28)  24 FEB 2024 22:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.28)  25 FEB 2024 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,103 +479,126 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] [2]
-<images/main_simu.jpeg, id=129, 1606.0pt x 638.385pt>
-File: images/main_simu.jpeg Graphic file (type jpg)
-<use images/main_simu.jpeg>
-Package pdftex.def Info: images/main_simu.jpeg  used on input line 195.
-(pdftex.def)             Requested size: 258.0pt x 102.5528pt.
+<images/charger_CD.png, id=135, 503.481pt x 203.5605pt>
+File: images/charger_CD.png Graphic file (type png)
+<use images/charger_CD.png>
+Package pdftex.def Info: images/charger_CD.png  used on input line 192.
+(pdftex.def)             Requested size: 258.0pt x 104.31145pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 195--196
+Overfull \hbox (6.0pt too wide) in paragraph at lines 192--193
  [][] 
  []
 
-<images/three_phase_rectifier.jpeg, id=131, 1606.0pt x 678.535pt>
+<images/main_simu.jpeg, id=138, 1606.0pt x 638.385pt>
+File: images/main_simu.jpeg Graphic file (type jpg)
+<use images/main_simu.jpeg>
+Package pdftex.def Info: images/main_simu.jpeg  used on input line 201.
+(pdftex.def)             Requested size: 258.0pt x 102.5528pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 201--202
+ [][] 
+ []
+
+<images/three_phase_rectifier.jpeg, id=140, 1606.0pt x 678.535pt>
 File: images/three_phase_rectifier.jpeg Graphic file (type jpg)
 <use images/three_phase_rectifier.jpeg>
 Package pdftex.def Info: images/three_phase_rectifier.jpeg  used on input line 
-203.
+209.
 (pdftex.def)             Requested size: 258.0pt x 109.00267pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 203--204
+Overfull \hbox (6.0pt too wide) in paragraph at lines 209--210
  [][] 
  []
 
-<images/buck_converter.jpeg, id=133, 1606.0pt x 519.9425pt>
+<images/buck_converter.jpeg, id=142, 1606.0pt x 519.9425pt>
 File: images/buck_converter.jpeg Graphic file (type jpg)
 <use images/buck_converter.jpeg>
-Package pdftex.def Info: images/buck_converter.jpeg  used on input line 211.
+Package pdftex.def Info: images/buck_converter.jpeg  used on input line 217.
 (pdftex.def)             Requested size: 258.0pt x 83.52571pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 211--212
+Overfull \hbox (6.0pt too wide) in paragraph at lines 217--218
  [][] 
  []
 
-<images/feedback.jpeg, id=136, 1050.92625pt x 719.68875pt>
+<images/feedback.jpeg, id=145, 1050.92625pt x 719.68875pt>
 File: images/feedback.jpeg Graphic file (type jpg)
 <use images/feedback.jpeg>
-Package pdftex.def Info: images/feedback.jpeg  used on input line 219.
+Package pdftex.def Info: images/feedback.jpeg  used on input line 225.
 (pdftex.def)             Requested size: 258.0pt x 176.68219pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 219--220
+Overfull \hbox (6.0pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
-<images/control.jpeg, id=137, 1606.0pt x 559.08875pt>
+<images/control.jpeg, id=146, 1606.0pt x 559.08875pt>
 File: images/control.jpeg Graphic file (type jpg)
 <use images/control.jpeg>
-Package pdftex.def Info: images/control.jpeg  used on input line 226.
+Package pdftex.def Info: images/control.jpeg  used on input line 232.
 (pdftex.def)             Requested size: 258.0pt x 89.81432pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 226--227
+Overfull \hbox (6.0pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
-[3 <./images/main_simu.jpeg> <./images/three_phase_rectifier.jpeg> <./images/bu
-ck_converter.jpeg> <./images/feedback.jpeg> <./images/control.jpeg>]
-<images/battery_params.jpeg, id=159, 725.71124pt x 480.79625pt>
+[3 <./images/charger_CD.png> <./images/main_simu.jpeg> <./images/three_phase_re
+ctifier.jpeg> <./images/buck_converter.jpeg> <./images/feedback.jpeg> <./images
+/control.jpeg>]
+<images/battery_params.jpeg, id=165, 725.71124pt x 480.79625pt>
 File: images/battery_params.jpeg Graphic file (type jpg)
 <use images/battery_params.jpeg>
-Package pdftex.def Info: images/battery_params.jpeg  used on input line 308.
-(pdftex.def)             Requested size: 258.0pt x 170.92963pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 308--309
- [][] 
- []
-
-<images/measurement_block.jpeg, id=161, 702.625pt x 496.85625pt>
+Package pdftex.def Info: images/battery_params.jpeg  used on input line 314.
+(pdftex.def)             Requested size: 244.5835pt x 162.03796pt.
+<images/measurement_block.jpeg, id=167, 702.625pt x 496.85625pt>
 File: images/measurement_block.jpeg Graphic file (type jpg)
 <use images/measurement_block.jpeg>
-Package pdftex.def Info: images/measurement_block.jpeg  used on input line 315.
+Package pdftex.def Info: images/measurement_block.jpeg  used on input line 321.
 
-(pdftex.def)             Requested size: 232.19843pt x 164.19809pt.
-<images/soc_estimation_curve.png, id=163, 526.96875pt x 395.22656pt>
+(pdftex.def)             Requested size: 245.10315pt x 173.3261pt.
+<images/soc_estimation_curve.png, id=169, 526.96875pt x 395.22656pt>
 File: images/soc_estimation_curve.png Graphic file (type png)
 <use images/soc_estimation_curve.png>
 Package pdftex.def Info: images/soc_estimation_curve.png  used on input line 32
-3.
+9.
 (pdftex.def)             Requested size: 232.19843pt x 174.1535pt.
-<images/voltage_estimation_curve.png, id=164, 526.96875pt x 395.22656pt>
+<images/voltage_estimation_curve.png, id=170, 526.96875pt x 395.22656pt>
 File: images/voltage_estimation_curve.png Graphic file (type png)
 <use images/voltage_estimation_curve.png>
 Package pdftex.def Info: images/voltage_estimation_curve.png  used on input lin
-e 329.
+e 335.
 (pdftex.def)             Requested size: 232.19843pt x 174.1535pt.
-<images/soc_error.png, id=166, 526.96875pt x 395.22656pt>
+<images/soc_error.png, id=172, 526.96875pt x 395.22656pt>
 File: images/soc_error.png Graphic file (type png)
 <use images/soc_error.png>
-Package pdftex.def Info: images/soc_error.png  used on input line 336.
+Package pdftex.def Info: images/soc_error.png  used on input line 343.
 (pdftex.def)             Requested size: 258.0pt x 193.5059pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 336--337
+Overfull \hbox (6.0pt too wide) in paragraph at lines 343--344
  [][] 
  []
 
 [4 <./images/battery_params.jpeg> <./images/measurement_block.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 \OT1/ptm/m/n/8 from []$https : / / github . com / SanketSarmalkar / electrical[
 ]vehicle[]battery[]
  []
 
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
+83.
+(C:\Users\sanke\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 6893) in paragraph at lines 380--384
+[]\OT1/ptm/m/n/8 Samuel Pra-jwal Ko-dali and Dr. Soumi-tra Das, ``Im-ple-men-ta
+-
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 380--384
+\OT1/ptm/m/n/8 tion of Five Level Charg-ing Scheme in Lithium ion Bat-ter-
+ []
+
+[5 <./images/soc_estimation_curve.png (PNG copy)> <./images/voltage_estimation_
+curve.png (PNG copy)> <./images/soc_error.png (PNG copy)>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -587,21 +610,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5 <./images/soc_estimation_curve.png (PNG copy)> <./images/voltage_estimation_
-curve.png (PNG copy)> <./images/soc_error.png (PNG copy)>]
-(On_Board_Electrical_Vehicle_Charging_IEEE_Report.aux)
+[6
+
+] (On_Board_Electrical_Vehicle_Charging_IEEE_Report.aux)
 Package rerunfilecheck Info: File `On_Board_Electrical_Vehicle_Charging_IEEE_Re
 port.out' has not changed.
 (rerunfilecheck)             Checksum: 77500F641B275070F69992117B2819B7;4611.
  ) 
 Here is how much of TeX's memory you used:
- 11112 strings out of 475385
- 179065 string characters out of 2776907
- 537793 words of memory out of 3000000
- 32293 multiletter control sequences out of 15000+600000
- 505039 words of font info for 98 fonts, out of 8000000 for 9000
+ 11180 strings out of 475385
+ 180081 string characters out of 2776907
+ 538107 words of memory out of 3000000
+ 32344 multiletter control sequences out of 15000+600000
+ 506690 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,77p,907b,523s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,8n,77p,907b,580s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -614,15 +637,16 @@ grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/sanke/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sanke/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users
 /sanke/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><
-C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb>
-<C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-<C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on On_Board_Electrical_Vehicle_Charging_IEEE_Report.pdf (5 pages
-, 713832 bytes).
+C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb
+><C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
+><C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pf
+b><C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
+b><C:/Users/sanke/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on On_Board_Electrical_Vehicle_Charging_IEEE_Report.pdf (6 pages
+, 773145 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
